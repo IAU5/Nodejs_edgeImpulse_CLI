@@ -13,7 +13,7 @@
 ## Install Node.js
 1. Go to https://nodejs.org/en and download the latest version LTS
 2. Install it , make sure to click the add path option and *Check mark the additional tools needed while installing node.js*
-3. It will take some time but should install without and issues.
+3. It will take some time but should install without any issues.
 
 
 ## Install edge impulse cli
