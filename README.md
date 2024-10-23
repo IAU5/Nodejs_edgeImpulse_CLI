@@ -5,9 +5,10 @@
 
 1. Open Windows PowerShell and give the following command:
 
-'''
+'''python
  Get-ExecutionPolicy
 '''
+
 4. If it returns “restricted” copy the following command and paste it: 
 
 '''
