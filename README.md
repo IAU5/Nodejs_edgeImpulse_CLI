@@ -9,19 +9,19 @@
  Get-ExecutionPolicy
 ```
 
-4. If it returns “restricted” copy the following command and paste it: 
+2. If it returns “restricted” copy the following command and paste it: 
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process
 ```
 
-5. Run this command next:
+3. Run this command next:
    
 ```
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ``` 
   
-5. If you don't see any errors, you are ready to use Chocolatey!
+4. If you don't see any errors, you are ready to use Chocolatey!
 
 
 ## Install Node.js
